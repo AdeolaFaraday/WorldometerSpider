@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
 
-
 class CountriesSpider(scrapy.Spider):
     name = 'countries'
     allowed_domains = ['www.worldometers.info']
